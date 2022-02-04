@@ -1,0 +1,26 @@
+---
+name: User Story - NOVA BASE
+about: Template for user stories
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+**As a** [Gerente de Logística]  
+ **I need** [Um reporte com dados confiáveis]  
+ **So that** [Tomar as decisões corretas, que colaborem com o bom funcionamento das operações]  
+   
+ ### Details and Assumptions
+ * [Uma base de dados que tenha critérios pré estabelecidos para extrair os dados]
+   [Os critérios para extração de dados devem seguir as regras de negócio]
+   [A base de dados deve ter seus critérios revistos e atualizados sempre que possível]
+   [O funcionamento, atualização e manuntenção da base dados devem estar devidamente documentados]
+   
+ ### Acceptance Criteria  
+   
+ ```gherkin
+ Given [foi gerado X operações]
+ When [e cada operação será contabilizada para cada área, conforme premissas establecidas]
+ Then [Áreas com a quantidade correta de lotes]
+ ```
